@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/action_page.php">
+    <form id="formulaire">
         <label for="fname">Name:</label><br>
         <input type="text" id="fname" name="fname" ç><br>
         <label for="tel">Téléphone: </label><br>
@@ -15,6 +15,7 @@
         <label for="message">Message: </label><br>
         <textarea name="message" id="message" cols="30" rows="10"></textarea>
         <input type="submit" value="Submit">
+
       </form> 
 </body>
 <script type="module">
@@ -42,7 +43,7 @@
 
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
-    const database = getDatabase(app);
+    const database = getDatabase(app);S
   </script>
-  <script type="module" src="info.js"></script>
+  <script type="module" src="fichier.js"></script>
 </html>
